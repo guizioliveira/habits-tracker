@@ -1,10 +1,5 @@
-interface HabitProps {
-  completed: number
-}
-export function Habit(props: HabitProps) {
+export function HabitDay() {
   return (
-    <div className="flex h-10 w-10 items-center justify-center rounded bg-zinc-900 text-white">
-      {props.completed}
-    </div>
+    <div className="h-10 w-10 rounded-lg border-2 border-zinc-800 bg-zinc-900"></div>
   )
 }
